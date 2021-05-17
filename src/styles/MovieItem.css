@@ -1,0 +1,47 @@
+.contour {
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    width: 310px;
+    height: 700px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 30px 30px 30px;
+}
+.contour:hover {
+    box-shadow: 1px 1px 40px rgb(0, 0, 0);
+    cursor: pointer;
+}
+.tb-cover {
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.tb-item-details {
+    text-align: left;
+    font-size: 1em;
+}
+.tb-item-title {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+.tb-item-title-value {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+.tb-item-link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+button {
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.986);
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+button:hover
+ {
+     box-shadow: 0px 0px 15px white;
+ }

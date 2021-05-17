@@ -1,0 +1,38 @@
+.tb-header {
+    border-bottom: 4px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    padding: 30px;
+}
+.tb-logo {
+    margin: 20px;
+    width: 100px;
+}
+.tb-banner {
+    display: flex;
+    align-items: center;
+}
+.tb-banner-nav
+{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+}
+.tb-banner-nav:hover
+{
+    background-color: white;
+    color: black;
+}
+.tb-nav
+{
+   
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+    font-size: 1.5em;
+}
