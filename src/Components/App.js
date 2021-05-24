@@ -32,7 +32,8 @@ function App() {
                             addMovie={addMovie}
                         />
                     </Route>
-                    <Route exact path={"/Movies/:title"} component={MovieInfos} />
+                    <Route path={"/Movies/:title"} component={MovieInfos} />
+                    <Route path="*" render={<h>Eror page not found</h1>} />
                 </div>
             </Switch>
         </BrowserRouter>
