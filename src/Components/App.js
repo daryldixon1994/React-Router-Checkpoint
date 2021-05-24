@@ -33,7 +33,7 @@ function App() {
                         />
                     </Route>
                     <Route path={"/Movies/:title"} component={MovieInfos} />
-                    <Route path="*" render={<h>Eror page not found</h1>} />
+                    <Route path="*" render={ ()=> <h1>Error page not found :/ </h1> } />
                 </div>
             </Switch>
         </BrowserRouter>
